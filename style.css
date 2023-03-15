@@ -104,3 +104,29 @@ footer {
     margin-top: 7%;
   }
 }
+@media screen and (max-width: 400px) {
+  .background_image {
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    width: 400px;
+  }
+  .container {
+    width: 400px;
+  }
+  .photo {
+    width: 400px;
+  }
+  .steam_widget {
+    scale: 35%;
+  }
+  .button_image {
+    scale: 45%;
+  }
+  .http_button {
+    align-self: start;
+    margin-top: 7%;
+  }
+}
