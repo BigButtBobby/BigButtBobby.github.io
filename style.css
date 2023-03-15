@@ -77,7 +77,32 @@ footer {
     margin-bottom: 320px;
   }
 }
-
+@media screen and (max-width: 650px) {
+  .background_image {
+    width: 650px;
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    width: 650px;
+  }
+  .container {
+    width: 650px;
+  }
+  .photo {
+    width: 650px;
+  }
+  .steam_widget {
+    scale: 55%;
+  }
+  .button_image {
+    scale: 45%;
+  }
+  .http_button {
+    align-self: start;
+    margin-top: 7%;
+  }
+}
 @media screen and (max-width: 500px) {
   .background_image {
     width: 500px;
