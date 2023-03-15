@@ -73,4 +73,34 @@ footer {
   .steam_widget {
     scale: 80%;
   }
+  .http_button {
+    margin-bottom: 320px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .background_image {
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    width: 500px;
+  }
+  .container {
+    width: 500px;
+  }
+  .photo {
+    width: 500px;
+  }
+  .steam_widget {
+    scale: 45%;
+  }
+  .button_image {
+    scale: 45%;
+  }
+  .http_button {
+    align-self: start;
+    margin-top: 7%;
+  }
 }
