@@ -3,6 +3,7 @@ body {
   background: black;
   color: white;
   align-self: center;
+  justify-content: center;
 }
 footer {
   color: gray;
