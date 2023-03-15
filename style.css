@@ -59,4 +59,7 @@ footer {
   .background_image {
     width: 960px;
   }
+  body{
+    width: 960px;
+  }
 }
