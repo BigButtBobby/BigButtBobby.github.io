@@ -4,6 +4,8 @@ body {
   color: white;
   align-self: center;
   justify-content: center;
+  display: flex;
+  flex-flow: column;
 }
 footer {
   color: gray;
