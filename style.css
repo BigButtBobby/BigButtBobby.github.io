@@ -58,8 +58,19 @@ footer {
 @media screen and (max-width: 1000px) {
   .background_image {
     width: 960px;
+    margin: 0px;
+    padding: 0px;
   }
-  body{
+  body {
     width: 960px;
+  }
+  .container {
+    width: 960px;
+  }
+  .photo {
+    width: 960px;
+  }
+  .steam_widget {
+    scale: 80%;
   }
 }
