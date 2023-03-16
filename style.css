@@ -44,7 +44,17 @@ footer {
 .button_image:hover {
   background: url(images/support_button_glow.png) no-repeat;
 }
-
+.youtube_widget {
+  position: absolute;
+  /*justify-content: center;*/
+  align-self: self-end;
+  margin-bottom: 120px;
+  scale: 100%;
+}
+.youtube_iframe {
+  border: 3px outset #2d6749;
+  border-radius: 12px;
+}
 .steam_widget {
   position: absolute;
   /*justify-content: center;*/
@@ -73,6 +83,10 @@ footer {
   .photo {
     width: 960px;
   }
+  .youtube_widget {
+    margin-bottom: 90px;
+    scale: 90%;
+  }
   .steam_widget {
     scale: 80%;
   }
@@ -97,6 +111,10 @@ footer {
   }
   .photo {
     width: 650px;
+  }
+  .youtube_widget {
+    margin-bottom: 5px;
+    scale: 60%;
   }
   .steam_widget {
     scale: 55%;
@@ -127,15 +145,24 @@ footer {
   .photo {
     width: 500px;
   }
-  .steam_widget {
-    scale: 45%;
-  }
+
   .button_image {
     scale: 45%;
   }
   .http_button {
     align-self: start;
     margin-top: 7%;
+  }
+  .youtube_widget {
+    scale: 45%;
+    align-self: start;
+    margin-top: 7%;
+  }
+  .youtube_iframe {
+    scale: 100%;
+  }
+  .steam_widget {
+    scale: 45%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -155,6 +182,14 @@ footer {
   }
   .photo {
     width: 400px;
+  }
+  .youtube_widget {
+    scale: 35%;
+    align-self: start;
+    margin-top: -5px;
+  }
+  .youtube_iframe {
+    scale: 100%;
   }
   .steam_widget {
     scale: 35%;
