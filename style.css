@@ -19,18 +19,11 @@ footer {
 .background_image {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 #second_background {
   display: flex;
   justify-content: center;
-}
-.http_button {
-  position: absolute;
-  /*justify-content: center;*/
-  /* align-self: top; */
-  height: 89px;
-  width: 312px;
-  margin-top: 130px;
 }
 .button_image {
   position: absolute;
@@ -40,6 +33,14 @@ footer {
   width: 312px;
   background: url(images/support_button_normal.png) no-repeat;
 }
+.http_button {
+  position: absolute;
+  /* justify-content: center; */
+  /* align-self: top; */
+  height: 89px;
+  width: 312px;
+  margin-top: 130px;
+}
 
 .button_image:hover {
   background: url(images/support_button_glow.png) no-repeat;
@@ -48,9 +49,9 @@ footer {
   display: flex;
   position: absolute;
   /* justify-content: center; */
-  align-self: top;
-  margin-top: 260px;
+  align-self: bottom;
   scale: 100%;
+  bottom: 0px;
 }
 .youtube_iframe {
   border: 3px outset #2d6749;
@@ -131,7 +132,7 @@ footer {
   }
 }
 */
-
+/*
 @media screen and (max-width: 500px) {
   body {
     max-width: 100%;
@@ -177,7 +178,7 @@ footer {
     margin-top: 10px;
   }
 }
-
+*/
 @media screen and (max-width: 400px) {
   body {
     max-width: 100%;
@@ -192,7 +193,7 @@ footer {
     max-height: 20px;
   }
   .background_image {
-    max-width: 95%;
+    max-width: 100%;
     padding: 0px;
     margin: 0px;
     align-self: center;
@@ -201,25 +202,73 @@ footer {
     width: 95%;
   }
   .youtube_widget {
-    align-self: top;
-    margin-top: -60px;
-    scale: 30%;
+    margin: 0px;
+    top: 0px;
   }
   .youtube_iframe {
-    align-self: top;
-    margin-top: 0px;
+    scale: 30%;
+    align-self: flex-end;
+    transform-origin: bottom;
   }
   .steam_widget {
     align-self: top;
     margin-top: -75px;
     scale: 30%;
   }
+  .http_button {
+    max-width: 100%;
+    align-self: top;
+    margin-top: 5px;
+  }
   .button_image {
-    scale: 35%;
+    align-self: center;
+    scale: 25%;
+  }
+}
+@media screen and (max-width: 345px) {
+  body {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .container {
+    max-width: 100%;
+  }
+  footer {
+    max-width: 100%;
+    max-height: 20px;
+  }
+  .background_image {
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
+  }
+  .photo {
+    width: 95%;
+  }
+  .youtube_widget {
+    margin: 0px;
+    top: 0px;
+  }
+  .youtube_iframe {
+    align-self: flex-end;
+    scale: 25%;
+    transform-origin: bottom;
+  }
+  .steam_widget {
+    align-self: top;
+    margin-top: -80px;
+    scale: 25%;
+  }
+  .button_image {
+    align-self: center;
+    scale: 20%;
   }
   .http_button {
-    max-width: 95%;
-    align-self: top;
-    margin-top: 10px;
+    width: 100%;
+    align-self: top center;
+    margin-top: -5px;
+    justify-content: center;
   }
 }
