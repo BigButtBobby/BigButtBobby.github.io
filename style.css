@@ -71,118 +71,168 @@ footer {
 .photo {
   /*margin-top: 25px;*/
 }
-/*
+
 @media screen and (max-width: 1000px) {
-  .background_image {
-    width: 960px;
+  body {
+    max-width: 100%;
     margin: 0px;
     padding: 0px;
-  }
-  body {
-    width: 960px;
-  }
-  footer {
-    width: 960px;
+    align-items: center;
+    align-self: center;
+    overflow-x: hidden;
   }
   .container {
-    width: 960px;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  footer {
+    max-width: 100%;
+    max-height: 20px;
+    overflow-x: hidden;
+  }
+  .background_image {
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
+    overflow-x: hidden;
   }
   .photo {
-    width: 960px;
+    width: 95%;
+    overflow-x: hidden;
   }
   .youtube_widget {
-    margin-bottom: 90px;
-    scale: 100%;
+    margin: 0px;
+    top: 0px;
+    scale: 70%;
+    transform-origin: bottom;
+  }
+  .youtube_iframe {
+    align-self: flex-end;
   }
   .steam_widget {
-    scale: 80%;
+    align-self: top;
+    margin-top: -5px;
+    scale: 70%;
   }
   .http_button {
-  }
-}
-*/
-/*
-@media screen and (max-width: 650px) {
-  .background_image {
-    width: 650px;
-    margin: 0px;
-    padding: 0px;
-  }
-  body {
-    width: 650px;
-  }
-  footer {
-    width: 650px;
-  }
-  .container {
-    width: 650px;
-  }
-  .photo {
-    width: 650px;
-  }
-  .youtube_widget {
-    margin-bottom: 5px;
-    scale: 60%;
-  }
-  .steam_widget {
-    scale: 55%;
+    max-width: 100%;
+    align-self: top;
+    margin-top: 65px;
   }
   .button_image {
-    scale: 45%;
-  }
-  .http_button {
-    align-self: top;
-    margin-top: 7%;
+    align-self: center;
+    scale: 50%;
   }
 }
-*/
-/*
+
+@media screen and (max-width: 650px) {
+  body {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    align-self: center;
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  footer {
+    max-width: 100%;
+    max-height: 20px;
+    overflow-x: hidden;
+  }
+  .background_image {
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
+    overflow-x: hidden;
+  }
+  .photo {
+    width: 95%;
+    overflow-x: hidden;
+  }
+  .youtube_widget {
+    margin: 0px;
+    top: 0px;
+    scale: 50%;
+    transform-origin: bottom;
+  }
+  .youtube_iframe {
+    align-self: flex-end;
+  }
+  .steam_widget {
+    align-self: top;
+    margin-top: -45px;
+    scale: 50%;
+  }
+  .http_button {
+    max-width: 100%;
+    align-self: top;
+    margin-top: 35px;
+  }
+  .button_image {
+    align-self: center;
+    scale: 35%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   body {
     max-width: 100%;
     margin: 0px;
     padding: 0px;
+    align-items: center;
+    align-self: center;
+    overflow-x: hidden;
   }
   .container {
     max-width: 100%;
+    overflow-x: hidden;
   }
   footer {
     max-width: 100%;
     max-height: 20px;
+    overflow-x: hidden;
   }
   .background_image {
-    max-width: 95%;
+    max-width: 100%;
     padding: 0px;
     margin: 0px;
     align-self: center;
+    overflow-x: hidden;
   }
   .photo {
     width: 95%;
+    overflow-x: hidden;
   }
   .youtube_widget {
-    align-self: top;
-    margin-top: -50px;
+    margin: 0px;
+    top: 0px;
     scale: 35%;
+    transform-origin: bottom;
   }
   .youtube_iframe {
-    align-self: top;
-    margin-top: 0px;
+    align-self: flex-end;
   }
   .steam_widget {
     align-self: top;
     margin-top: -65px;
     scale: 35%;
   }
-  .button_image {
-    scale: 35%;
-  }
   .http_button {
-    max-width: 95%;
+    max-width: 100%;
     align-self: top;
-    margin-top: 10px;
+    margin-top: 25px;
+  }
+  .button_image {
+    align-self: center;
+    scale: 25%;
   }
 }
-*/
 @media screen and (max-width: 400px) {
   body {
     max-width: 100%;
