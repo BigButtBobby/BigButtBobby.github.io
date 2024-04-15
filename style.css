@@ -31,6 +31,15 @@ footer {
   justify-content: center;
   position: relative;
 }
+.background_image2 {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 50px;
+}
+
 #second_background {
   display: flex;
   justify-content: center;
@@ -84,13 +93,101 @@ footer {
   align-self: center;
   height: 89px;
   width: 312px;
+  background: url(images/DEMO_button_normal.png) no-repeat;
 }
+.facebook_media_button_image {
+  position: relative;
+  /*justify-content: center;*/
+  align-self: center;
+  height: 38px;
+  width: 22px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: url(images/logo_Facebook.png) no-repeat;
+}
+.facebook_media_http_button {
+  /* position: absolute; */
+  /* justify-content: center; */
+  align-self: center;
+  height: 38px;
+  width: 22px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.youtube_media_button_image {
+  position: relative;
+  /*justify-content: center;*/
+  align-self: center;
+  height: 38px;
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: url(images/logo_YouTube.png) no-repeat;
+}
+.youtube_media_http_button {
+  /* position: absolute; */
+  /* justify-content: center; */
+  align-self: center;
+  height: 38px;
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tiktok_media_button_image {
+  position: relative;
+  /*justify-content: center;*/
+  align-self: center;
+  height: 38px;
+  width: 34px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: url(images/logo_Tik_Tok.png) no-repeat;
+}
+.tiktok_media_http_button {
+  /* position: absolute; */
+  /* justify-content: center; */
+  align-self: center;
+  height: 38px;
+  width: 34px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.steamstore_button_image {
+  position: absolute;
+  /*justify-content: center;*/
+  align-self: center;
+  height: 59px;
+  width: 201px;
+  background: url(images/logo_Steamv2.png) no-repeat;
+}
+.steamstore_http_button {
+  position: absolute;
+  /* justify-content: center; */
+  align-self: center;
+  height: 59px;
+  width: 201px;
+}
+
 
 .kickstarter_button_image:hover {
   background: url(images/support_button_glow.png) no-repeat;
 }
 .playdemo_button_image:hover {
   background: url(images/DEMO_button_glow.png) no-repeat;
+}
+.facebook_media_button_image:hover {
+  transform: scale(105%);
+}
+.youtube_media_button_image:hover{
+  transform: scale(105%);
+}
+.tiktok_media_button_image:hover{
+  transform: scale(105%);
+}
+.steamstore_http_button:hover{
+  transform: scale(105%);
 }
 
 .youtube_widget {
@@ -140,10 +237,22 @@ footer {
     margin: 0px;
     align-self: center;
     overflow-x: hidden;
+    overflow-y: hidden;
   }
+
+.background_image2 {
+  scale: 60%;
+  align-items: center;
+  max-width: 100%;
+  padding: 0px;
+  margin: 0px;
+  align-self: center;
+  overflow-x: hidden;
+}
   .photo {
     width: 95%;
     overflow-x: hidden;
+    overflow-y: hidden;
   }
   .youtube_widget {
     margin: 0px;
@@ -174,6 +283,34 @@ footer {
   .playdemo_http_button {
     max-width: 100%;
   }
+  .facebook_media__button_image {
+    scale: 75%;
+    align-self: center;
+  }
+  .facebook_media__http_button {
+    scale: 75%;
+    align-self: center;
+  }
+
+.youtube_media__button_image {
+  scale: 75%;
+}
+.youtube_media__http_button {
+  scale: 75%;
+}
+
+  .tiktok_media__button_image {
+    scale: 75%;
+  }
+  .tiktok_media__http_button {
+    scale: 75%;
+  }
+  .steamstore_button_image {
+    scale: 75%;
+  }
+  .steamstore_http_button {
+    scale: 75%;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -195,6 +332,15 @@ footer {
     overflow-x: hidden;
   }
   .background_image {
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
+    overflow-x: hidden;
+  }
+  .background_image2 {
+    scale: 45%;
+    align-items: center;
     max-width: 100%;
     padding: 0px;
     margin: 0px;
@@ -261,6 +407,15 @@ footer {
     align-self: center;
     overflow-x: hidden;
   }
+  .background_image2 {
+    scale: 35%;
+    align-items: center;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
+    overflow-x: hidden;
+  }
   .photo {
     width: 95%;
     overflow-x: hidden;
@@ -294,6 +449,12 @@ footer {
   .playdemo_http_button {
     max-width: 100%;
   }
+  .steamstore_button_image {
+    scale: 45%;
+  }
+  .steamstore_http_button {
+    scale: 45%;
+  }
 }
 @media screen and (max-width: 400px) {
   body {
@@ -314,6 +475,15 @@ footer {
     overflow-x: hidden;
   }
   .background_image {
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
+    overflow-x: hidden;
+  }
+  .background_image2 {
+    scale: 32%;
+    align-items: center;
     max-width: 100%;
     padding: 0px;
     margin: 0px;
@@ -370,6 +540,13 @@ footer {
   footer {
     max-width: 100%;
     max-height: 20px;
+    overflow-x: hidden;
+  }
+  .background_image {
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
     overflow-x: hidden;
   }
   .background_image {
