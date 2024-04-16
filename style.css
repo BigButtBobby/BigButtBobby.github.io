@@ -100,8 +100,8 @@ footer {
   align-self: center;
   height: 38px;
   width: 22px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   background: url(images/logo_Facebook.png) no-repeat;
 }
 .facebook_media_http_button {
@@ -110,8 +110,8 @@ footer {
   align-self: center;
   height: 38px;
   width: 22px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .youtube_media_button_image {
@@ -120,8 +120,8 @@ footer {
   align-self: center;
   height: 38px;
   width: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   background: url(images/logo_YouTube.png) no-repeat;
 }
 .youtube_media_http_button {
@@ -130,8 +130,8 @@ footer {
   align-self: center;
   height: 38px;
   width: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .tiktok_media_button_image {
@@ -140,8 +140,8 @@ footer {
   align-self: center;
   height: 38px;
   width: 34px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   background: url(images/logo_Tik_Tok.png) no-repeat;
 }
 .tiktok_media_http_button {
@@ -150,8 +150,8 @@ footer {
   align-self: center;
   height: 38px;
   width: 34px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .steamstore_button_image {
   position: absolute;
@@ -247,6 +247,8 @@ footer {
   margin: 0px;
   align-self: center;
   overflow-x: hidden;
+  justify-content: space-between;
+  gap: 30px;
 }
   .photo {
     width: 95%;
