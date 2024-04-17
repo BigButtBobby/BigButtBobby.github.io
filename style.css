@@ -227,8 +227,9 @@ footer {
   }
   footer {
     max-width: 100%;
-    max-height: 20px;
+    max-height: 40px;
     overflow-x: hidden;
+    text-align-last: center;
   }
   .background_image {
     max-width: 100%;
@@ -329,8 +330,9 @@ footer {
   }
   footer {
     max-width: 100%;
-    max-height: 20px;
+    max-height: 40px;
     overflow-x: hidden;
+    text-align-last: center;  
   }
   .background_image {
     max-width: 100%;
@@ -398,8 +400,9 @@ footer {
   }
   footer {
     max-width: 100%;
-    max-height: 20px;
+    max-height: 40px;
     overflow-x: hidden;
+    text-align-last: center;
   }
   .background_image {
     max-width: 100%;
@@ -472,8 +475,9 @@ footer {
   }
   footer {
     max-width: 100%;
-    max-height: 20px;
+    max-height: 40px;
     overflow-x: hidden;
+    text-align-last: center;
   }
   .background_image {
     max-width: 100%;
@@ -540,8 +544,9 @@ footer {
   }
   footer {
     max-width: 100%;
-    max-height: 20px;
+    max-height: 40px;
     overflow-x: hidden;
+    text-align-last: center;
   }
   .background_image {
     max-width: 100%;
